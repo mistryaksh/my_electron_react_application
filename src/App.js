@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Realm from "realm";
 
-const app = new Realm.App({ id: "<Your App ID>" }); // create a new instance of the Realm.App
+const app = new Realm.App({ id: "revolution_educational-ttenr" }); // create a new instance of the Realm.App
 async function run() {
      // login with an anonymous credential
      await app.logIn(Realm.Credentials.anonymous());
